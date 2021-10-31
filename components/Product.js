@@ -20,19 +20,22 @@ export const Product = (props) => {
         {props.name} {count}
       </div>
       <div>{props.desc}</div>
-      <div
-        onClick={() => {
-          productCounter(count, "add");
-        }}
-      >
-        +
-      </div>
-      <div
-        onClick={() => {
-          productCounter(count, "substract");
-        }}
-      >
-        -
+      <div className="flex-container">
+        <div
+          onClick={() => {
+            productCounter(count, "add");
+          }}
+        >
+          <div className="adding">+</div>
+        </div>
+        <div
+          onClick={() => {
+            productCounter(count, "substract");
+          }}
+        >
+          <div className="substr">-</div>
+        </div>
+        <p></p>
       </div>
     </div>
   );
