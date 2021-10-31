@@ -1,0 +1,14 @@
+.wrapp {
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+}
+.titleProduct {
+  font-size: 20px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+.bla {
+  color: red;
+}
